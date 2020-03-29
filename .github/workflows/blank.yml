@@ -29,5 +29,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: echo env
       run: |
+        source ./.env
         echo "KEY1 :" + $KEY1
         echo $KEY2
